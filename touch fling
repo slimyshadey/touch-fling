@@ -16,7 +16,6 @@ local TextButton = Instance.new("TextButton")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
-print("sub to BlueCat")
  
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -39,7 +38,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.112792775, 0, -0.0151660154, 0)
 TextLabel.Size = UDim2.new(0, 121, 0, 26)
 TextLabel.Font = Enum.Font.Sarpanch
-TextLabel.Text = "Touch Fling"
+TextLabel.Text = "test"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel.TextSize = 25.000
  
